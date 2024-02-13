@@ -1,0 +1,31 @@
+{
+  "1fef0ce7-41de-4369-b427-0b11710979f1": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://escolatrabalhador4.sharepoint.com/sites/AppReembolso": {
+        "dataSources": {
+          "Lista_Reembolso": {
+            "tableName": "f969c816-551a-4014-9512-40a8ab66bb0e"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Lista_Reembolso"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1fef0ce7-41de-4369-b427-0b11710979f1"
+  }
+}
